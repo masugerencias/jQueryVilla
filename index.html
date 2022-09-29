@@ -1,0 +1,219 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<script> /* BOTON 0 clicktoshow0 showclick0 PASION*/
+document.addEventListener('DOMContentLoaded', function() {
+jQuery(function($){
+$('.clicktoshow0').each(function(i){
+$(this).click(function(){ $('.showclick0').eq(i).show();
+												 
+												 
+$('.showclick1').eq(i).hide();
+$('.showclick2').eq(i).hide();
+$('.showclick3').eq(i).hide();
+$('.showclick4').eq(i).hide();
+
+												 
+												 
+$('.showclick1').hide();
+$('.showclick2').hide();
+$('.showclick3').hide();
+$('.showclick4').hide();
+
+												 
+												 
+$('.clicktoshow0').addClass('activacion');
+												 
+$('.clicktoshow1').removeClass('activacion');
+$('.clicktoshow2').removeClass('activacion');
+$('.clicktoshow3').removeClass('activacion');
+$('.clicktoshow4').removeClass('activacion');
+
+
+												 
+}); });
+}); });
+</script>
+
+
+<script> /* BOTON 1 clicktoshow1 showclick1  EMPATIA */
+	
+document.addEventListener('DOMContentLoaded', function() {
+jQuery(function($){
+$('.clicktoshow1').each(function(i){
+$(this).click(function(){ $('.showclick1').eq(i).show();
+												 
+												 
+$('.showclick0').eq(i).hide();
+$('.showclick2').eq(i).hide();
+$('.showclick3').eq(i).hide();
+$('.showclick4').eq(i).hide();
+
+												 
+$('.showclick0').hide();
+$('.showclick2').hide();
+$('.showclick3').hide();
+$('.showclick4').hide();
+
+
+												 
+												 
+$('.clicktoshow1').addClass('activacion');
+												 
+$('.clicktoshow0').removeClass('activacion');
+$('.clicktoshow2').removeClass('activacion');
+$('.clicktoshow3').removeClass('activacion');
+$('.clicktoshow4').removeClass('activacion');
+
+
+												 
+												 
+}); });
+}); });
+</script>
+
+
+
+
+
+<script> /* BOTON 2 clicktoshow2 showclick2  PROFESIONALISMO */
+	
+document.addEventListener('DOMContentLoaded', function() {
+jQuery(function($){
+$('.clicktoshow2').each(function(i){
+$(this).click(function(){ $('.showclick2').eq(i).show();
+												 
+												 
+$('.showclick0').eq(i).hide();
+$('.showclick1').eq(i).hide();
+												 $('.showclick3').eq(i).hide();
+												 $('.showclick4').eq(i).hide();
+
+												 
+$('.showclick0').hide();
+$('.showclick1').hide();
+$('.showclick3').hide();
+$('.showclick4').hide();
+ 
+												 
+$('.clicktoshow2').addClass('activacion');
+												 
+$('.clicktoshow0').removeClass('activacion');
+$('.clicktoshow1').removeClass('activacion');
+$('.clicktoshow3').removeClass('activacion');
+$('.clicktoshow4').removeClass('activacion');
+
+
+												 
+												 
+}); });
+}); });
+</script>
+
+
+
+
+
+
+
+
+
+<script> /* BOTON 3 clicktoshow3 showclick3 CALIDAD*/
+document.addEventListener('DOMContentLoaded', function() {
+jQuery(function($){
+$('.clicktoshow3').each(function(i){
+$(this).click(function(){ $('.showclick3').eq(i).show();
+												 
+$('.showclick0').eq(i).hide();					 
+$('.showclick1').eq(i).hide();
+$('.showclick2').eq(i).hide();
+												 $('.showclick4').eq(i).hide();
+												 
+$('.showclick0').hide();					 
+$('.showclick1').hide();
+$('.showclick2').hide();
+												 
+												 
+$('.clicktoshow3').addClass('activacion');
+							
+$('.clicktoshow0').removeClass('activacion');												 
+$('.clicktoshow1').removeClass('activacion');
+$('.clicktoshow2').removeClass('activacion');
+$('.clicktoshow4').removeClass('activacion');
+
+
+												 
+}); });
+}); });
+</script>
+
+
+
+
+<script> /* BOTON 4 clicktoshow4 showclick4 TRANSPARENCIA*/
+document.addEventListener('DOMContentLoaded', function() {
+jQuery(function($){
+$('.clicktoshow4').each(function(i){
+$(this).click(function(){ $('.showclick4').eq(i).show();
+												 
+$('.showclick0').eq(i).hide();					 
+$('.showclick1').eq(i).hide();
+$('.showclick2').eq(i).hide();
+$('.showclick3').eq(i).hide();
+
+												 
+$('.showclick0').hide();					 
+$('.showclick1').hide();
+$('.showclick2').hide();
+$('.showclick3').hide();
+												 
+
+												 
+												 
+$('.clicktoshow4').addClass('activacion');
+							
+$('.clicktoshow0').removeClass('activacion');												 
+$('.clicktoshow1').removeClass('activacion');
+$('.clicktoshow2').removeClass('activacion');
+$('.clicktoshow3').removeClass('activacion');
+
+												 
+}); });
+}); });
+</script>
+
+
+
+<style>
+.clicktoshow0 .clicktoshow1 .clicktoshow2 .clicktoshow3 .clicktoshow4 {
+cursor: pointer;
+}
+
+	
+.showclick0{
+display: none;
+}
+	
+	.showclick1{
+display: none;
+}
+	
+	.showclick2{
+display: none;
+}
+	
+		.showclick3{
+display: none;
+}
+	
+	  .showclick4{
+display: none;
+}
+	
+
+	
+	
+.activacion {
+background-color: whitesmoke !important;
+}
+</style>
